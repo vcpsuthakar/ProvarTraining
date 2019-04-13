@@ -11,6 +11,7 @@
     <connectionClass name="sf">
       <connections>
         <connection name="AdminConnection">
+          <summary/>
           <connectionUrls>
             <connectionUrl secureStorageNodeId="95cd96ac-962f-4e98-ae4b-86c56849fd1d" url="sf:user=provartesting.hpssales@hpse2e02.com;password={password};environment=SANDBOX;lightningMode=true"/>
           </connectionUrls>
