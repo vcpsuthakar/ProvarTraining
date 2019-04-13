@@ -17,5 +17,8 @@ public class PageObject_Training {
 	@TextType()
 	@FindBy(xpath = "//label[normalize-space(.)='Account Name*']/following-sibling::input")
 	public WebElement accountName;
+	@TextType()
+	@FindBy(xpath = "//textarea[@name='street']")
+	public WebElement street;
 			
 }
