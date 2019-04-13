@@ -20,5 +20,14 @@ public class PageObject_Training {
 	@TextType()
 	@FindBy(xpath = "//textarea[@name='street']")
 	public WebElement street;
+	@TextType()
+	@FindBy(xpath = "//a[normalize-space(.)='MoreShow More']/lightning-icon/lightning-primitive-icon")
+	public WebElement showMoreOptions;
+	@LinkType()
+	@FindBy(linkText = "Opportunities")
+	public WebElement opportunitiesMenu;
+	@TextType()
+	@FindByLabel(label = "SAT")
+	public WebElement sAT;
 			
 }
